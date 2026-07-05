@@ -1,4 +1,4 @@
-[![ไทย](https://img.shields.io/badge/Thai-Click-blue)](README-th.md)
+﻿[![ไทย](https://img.shields.io/badge/Thai-Click-blue)](README-th.md)
 [![English](https://img.shields.io/badge/English-Click-yellow)](README.md)
 [![繁體中文](https://img.shields.io/badge/繁體中文-點擊查看-orange)](README-zh_TW.md)
 [![简体中文](https://img.shields.io/badge/简体中文-点击查看-orange)](README-zh.md)
@@ -2626,6 +2626,7 @@ Tools for conducting research, surveys, interviews, and data collection.
 - [juergenkoller-software/pdf-content-search-mcp](https://github.com/juergenkoller-software/pdf-content-search-mcp) [![juergenkoller-software/pdf-content-search-mcp MCP server](https://glama.ai/mcp/servers/juergenkoller-software/pdf-content-search-mcp/badges/score.svg)](https://glama.ai/mcp/servers/juergenkoller-software/pdf-content-search-mcp) 🏠 🍎 - MCP bridge for [PDF Content Search](https://store.juergenkoller.software/en/apps/pdf-content-search) — full-text PDF search with Apple Vision OCR across thousands of documents in under a second. Advanced filters (date, category, sender, amount), wildcards, boolean operators.
 
 ### 🔒 <a name="security"></a>Security
+- [MCP Scanner](https://github.com/dockfixlabs/mcp-scanner) - Security scanner for MCP server configurations. Detects malicious tools, filesystem access, network exfiltration, and supply chain risks. 9 security checks, MIT license. `pip install dfx-mcp-scanner`
 
 - [astafford8488/agentaegis-mcp](https://github.com/astafford8488/agentaegis-mcp) [![astafford8488/agentaegis-mcp MCP server](https://glama.ai/mcp/servers/astafford8488/agentaegis-mcp/badges/score.svg)](https://glama.ai/mcp/servers/astafford8488/agentaegis-mcp) 📇 ☁️ - Security & trust layer for AI agents. Scan an MCP server or skill *before* you install it (`scan_mcp_plugin`, `scan_skill`) — flags exfiltration, prompt-injection sinks, dangerous capabilities, install hooks and obfuscation → PROCEED/CAUTION/BLOCK. Plus `vet_endpoint` (endpoint safety verdict before an agent calls or pays it) and 25 more tools: vuln scans, threat intel, compliance (SOC 2/ISO 27001/HIPAA), code security (SAST/secret/dependency), identity — 28 total. Per-call billing via API key or x402 USDC on Base; free discovery tier.
 - [qinisolabs/qiniso](https://github.com/qinisolabs/qiniso) [![qinisolabs/qiniso MCP server](https://glama.ai/mcp/servers/qinisolabs/qiniso/badges/score.svg)](https://glama.ai/mcp/servers/qinisolabs/qiniso) 📇 🏠 ☁️ - 56 deterministic fact-checkers in one server (IBAN, VAT, VIN, GTIN/barcodes, national & tax IDs, crypto addresses, phone, dates, holidays) — verify the structured facts an agent emits against checksums and curated data.
